@@ -40,7 +40,7 @@ jobs:
         echo "Hello, World!"
     - name: Install package and test
       run: |
-        make test
+        make install test clean
     # - name: Set up Python ${{ matrix.python-version }}
     #   uses: actions/setup-python@v1
     #   with:
