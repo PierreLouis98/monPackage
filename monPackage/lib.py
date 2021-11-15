@@ -1,7 +1,7 @@
 # monpackage/lib.py
 
 def try_me():
-    print("Hello motherfuckers")  # HugMul/BOPB4EVER
+    print("Hello motherfuckers")
 
 def hello(name):
     return "Hello " + name+" !"
